@@ -43,13 +43,13 @@ input[type="submit"]:hover{
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>PITO</title>
+    <title>Login Page</title>
   </head>
   <body>
-      <p id="titulo">Iniciar Sesion</p>
+      <p id="titulo">Login</p>
         <form action="process.php" method="post">
-          <input type="text" name="username" placeholder="Ingresa tu nombre">
-          <input type="password" name="password" placeholder="Ingresa tu contraseña">
+          <input type="text" name="username" placeholder="Insert your name">
+          <input type="password" name="password" placeholder="Insert your password">
           <input type="submit" value="Login">
         </form>
   </body>
